@@ -1,0 +1,1 @@
+const sidebar=document.getElementById('adminSidebar'),backdrop=document.getElementById('sidebarBackdrop');document.getElementById('sidebarToggle')?.addEventListener('click',()=>{sidebar.classList.toggle('show');backdrop.classList.toggle('show')});backdrop?.addEventListener('click',()=>{sidebar.classList.remove('show');backdrop.classList.remove('show')});
